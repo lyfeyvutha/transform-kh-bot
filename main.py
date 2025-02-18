@@ -112,7 +112,8 @@ class TransformKHBot:
         if not transcription or any(ord(char) > 127 for char in transcription):
             # Assume Khmer and use Khmer ASR
             async with websockets.connect(self.khmer_asr_websocket_url) as websocket:
-                audio_bytes = (audio * 32767).astype('int16').tobytes()
+                raw_audio, sr = librosa.load(audio_path, sr=16000)
+                audio_bytes = (raw_audio * 32767).astype('int16').tobytes()
                 await websocket.send(audio_bytes)
                 result = await websocket.recv()
                 result_json = json.loads(result)
