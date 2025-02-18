@@ -1,0 +1,8 @@
+certifi
+requests
+python-telegram-bot
+transformers
+torch
+scipy
+librosa
+python-dotenvgit add docker-compose Dockerfile main.py requirements
