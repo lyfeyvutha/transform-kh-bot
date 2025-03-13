@@ -1,6 +1,6 @@
 # Transform KH Bot - Speech To Speech Bot 
 
-Transform KH Bot is a speech-to-speech and multi-modal Telegram bot that transcribes English or Khmer voice messages and text messages, translates them to English or Khmer, and generates English or Khmer speech. It leverages AI models for speech recognition, translation, and text-to-speech synthesis. Built on top of [TranscribeKH Bot](https://github.com/lyfeyvutha/transcribe-kh-bot).
+Transform KH Bot is an advanced Telegram bot that makes speech-to-speech conversion easy. It transcribes voice messages in English or Khmer, translates them into the other language, and generates natural-sounding speech using open-source AI models for speech recognition, translation, and text-to-speech synthesis. It is built on top of [TranscribeKH Bot](https://github.com/lyfeyvutha/transcribe-kh-bot), enhancing its functionality.
 
 ## Features
 
@@ -72,7 +72,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/lyfeyvutha/transform-kh-bot/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](https://github.com/lyfeyvutha/transform-kh-bot/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
