@@ -86,19 +86,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 For any queries or support, please open an issue in the GitHub repository.
 
-
-## Acknowledgments
-
-- OpenAI for the Whisper model
-- CADT for the KhmerASR model
-- Facebook for the MMS-TTS model
-- TranslateKH for their translation API
-- The Python-Telegram-Bot team for their excellent library
-
-## Contact
-
-For any queries or support, please open an issue in the GitHub repository.
-
 ## Author
 
 [Chealyfey Vutha](https://github.com/lyfeyvutha)
